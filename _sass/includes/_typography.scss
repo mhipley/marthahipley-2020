@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+
+@font-face {
+    font-family: "mazius";
+    src: url("../../assets/typefaces/MAZIUSREVIEW20.09-Extraitalic.woff2") format("woff2"),
+         url("../../assets/typefaces/MAZIUSREVIEW20.09-Extraitalic.woff") format("woff");
+  }
+  @font-face {
+    font-family: "messapia";
+    src: url("../../assets/typefaces/Messapia-Bold.woff") format("woff"),
+         url("../../assets/typefaces/Messapia-Bold.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "necto";
+    src: url("../../assets/typefaces/Necto-Mono.woff") format("woff"),
+         url("../../assets/typefaces/Necto-Mono.woff2") format("woff2");
+  }
+  @font-face {
+    font-family: "sinistre";
+    src: url("../../assets/typefaces/Sinistre-StCaroline.woff") format("woff"),
+         url("../../assets/typefaces/Sinistre-StCaroline.woff2") format("woff2");
+  }
+
+
+html {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: $primary;
+}
+
+a { 
+    &.action {
+        text-transform: uppercase;
+        font-weight: 400;
+        text-decoration: none;
+        
+    }
+    text-decoration: underline;
+    color: $primary;
+    &:hover {
+        color: $accent;  
+    }
+    &:visited {
+        text-decoration: line-through;
+    }
+}
+
+h1 {
+    font-family: "sinistre", serif;
+    font-size: 4rem;
+    @include breakpoint(sm) {
+        font-size: 3rem;
+    }
+    a {
+        text-decoration: none;
+    }
+}
+
+
+h2 {
+    margin: 0;
+    span.line {
+        display: inline-block;
+    }
+    a { 
+        text-decoration: none; 
+        color: $primary;
+        &:hover {
+            color: $accent;
+            text-decoration: none;
+        }
+    }
+    &#everyoneisugly {
+        font-family: "mazius", serif;
+        font-size: 5rem;
+        @include breakpoint(xs) {
+            font-size: 3.5rem;
+        }
+        @include breakpoint(sm) {
+            font-size: 4rem;
+        }
+    }
+    &#agtc {
+        font-family: "necto", monospace;
+        font-size: 2rem;
+    }
+    &#availableworks {
+        font-family: "messapia", serif;
+        font-size: 3rem;
+        @include breakpoint(xs) {
+            font-size: 2rem;
+        }
+        @include breakpoint(sm) {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+h3 {
+    font-family: "sinistre", erif;
+    font-size: 2em;
+    margin: 0;
+}
+
+h6 {
+    font-size: 1em;
+    margin: 0;
+}
+
+p, ul {
+    font-size: 1.2em;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: $primary;
+    opacity: .5;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $primary;
+    opacity: .5;
+  }
+  
+  ::placeholder {
+    color: $primary;
+    opacity: .5;
+  }

@@ -4,58 +4,81 @@ layout: default
 
 <div class="home">
 
-  <div class="content">
-      <div class="row">
-          <div class="col-xs-12 col-md-6">
+  <div class="content container-fluid">
+      <div class="row middle-sm">
+          <div class="col-xs-12 col-sm-6 feature-wrapper">
+            <div id="underlay"></div>
             <div class="row" id="feature-block">
-                <div class="col-xs-12">
-                    <a href="" target="_blank"><h2 id="everyoneisugly">everyoneisugly.com</h2></a>
-                    <h6>art & personal projects</h6>
+                <div class="col-xs-12" style="position: relative;">
+                    <div class="feature">
+                        <h2 id="everyoneisugly"><a href="https://everyoneisugly.com/" target="_blank"><span class="line">everyoneisugly</span><span class="line">.com</span></a></h2>
+                        <h6>art & personal projects</h6>
+                    </div>
                 </div>
                 <div class="col-xs-12">
-                    <a href="" target="_blank"><h2 id="agtc">an artist's guide to computation</h2></a>
-                    <h6>a newsletter of art & technology resources for creators of all kinds</h6>
+                    <div class="feature">
+                        <h2 id="agtc"><a href="https://artistsguidetocomputation.substack.com/" target="_blank">an artist's guide to computation</a></h2>
+                        <h6>a newsletter of art & technology resources for creators of all kinds</h6>
+                    </div>
                 </div>
                 <div class="col-xs-12">
-                    <a href="" target="_blank"><h2 id="available.works">available.works</h2></a>
-                    <h6>original art, prints, and zines via direct sale</h6>
+                    <div class="feature">
+                    <h2 id="availableworks"><a href="http://available.works/" target="_blank"><span class="line">available</span><span class="line">.works</span></a></h2>
+                        <h6>original art, prints, and zines via direct sale</h6>
+                    </div>
                 </div>
             </div>
           </div>
-          <div class="col-xs-12 col-md-6">
+          <div class="col-xs-12 col-sm-6 index-content">
             {{ content }}
             {%- include newsletter.html -%}
           </div>
       </div>
   </div>
-  
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">recent links:</h2>
+    <div class="content container-fluid">
+        <div class="links-wrapper">
+        {%- if site.posts.size > 0 -%}
+            <h3 class="post-list-heading">recent links:</h3>
 
-    <div id="link-carousel">
-        <button id="scroll-left"></button>
-        {%- for post in site.posts limit:10 -%}
-            {% if post.categories contains 'link' %}
-                <a href="{{ post.link }}"" target="_blank">
-                <div class="link-card">
-                    <div class="link-tag">
-                        {{ post.tag }}
+        <div class="glider-contain">
+            <div class="glider">
+                {%- for post in site.posts limit:10 -%}
+                {% if post.categories contains 'link' %}
+                    <a href="{{ post.link }}"" target="_blank">
+                    <div class="link-card">
+                        <div class="link-tag">
+                            {{ post.tag }}
+                        </div>
+                        <div class="link-image" style="background-image: url('{{site.url}}/images/{{ post.image }}'">
+                                            
+                        </div>
+                        <div class="link-description">
+                            {{ post.description }}
+                            <div class="date">{{ post.date | date: "%B %Y"}}</div>
+                        </div>
+                        
                     </div>
-                    <div class="link-image">
-                        <img src="{{site.url}}/images/{{ post.image }}">                   
-                    </div>
-                    <div class="link-description">
-                        {{ post.description }}
-                    </div>
-                </div>
-                </a>
-            {% endif %}
-        {%- endfor -%}
-        <button id="scroll-right"></button>
-        <a href="{{site.url}}/links/">view more</a>
+                    </a>
+                {% endif %}
+            {%- endfor -%}
+            </div>
+        
+            <button aria-label="Previous" class="glider-prev"><div class="icon icon-left"></div></button>
+            <button aria-label="Next" class="glider-next"><div class="icon icon-right"></div></button>
+            <div role="tablist" class="dots"></div>
+        </div>
+
+        {%- endif -%}
+        <div class="row end-xs">
+            <div class="col-xs-12">
+                <a href="{{site.url}}/links/" class="view-more">view more <span class="icon icon-forward"></span></div></a>
+            </div>
+        </div>
     </div>
 
-  {%- endif -%}
+</div>
+
 
 </div>
+

@@ -1,34 +1,44 @@
 ---
 layout: default
 ---
-
-<div class="links-list">
-  
-    {{ content }}
-  
-    {%- if site.posts.size > 0 -%}
-      <a href="{{site.url}}">back home</a>
-      <div class="post-grid">
-        {%- for post in site.posts -%}
-        {% if post.categories contains 'link' %}
-        <a href="{{ post.link }}"" target="_blank">
-            <div class="link-card">
-                <div class="link-tag">
-                    {{ post.tag }}
-                </div>
-                <div class="link-image">
-                    <img src="{{site.url}}/images/{{ post.image }}">                   
-                </div>
-                <div class="link-description">
-                    {{ post.description }}
-                </div>
+<div class="content container-fluid">
+    <div class="links-list">
+    
+        {{ content }}
+    
+        {%- if site.posts.size > 0 -%}
+        <div class="row">
+            <div class="col-xs-12">
+                <a href="{{site.url}}" class="action"><span class="icon icon-back"></span>back home</a>
             </div>
-            </a>
-        {%- endif -%}
-        {%- endfor -%}
         </div>
-  
-    {%- endif -%}
-  
-  </div>
+        
+        <div class="post-grid">
+            {%- for post in site.posts -%}
+            {% if post.categories contains 'link' %}
+            
+                <div class="link-card">
+                    <a href="{{ post.link }}"" target="_blank">
+                    <div class="link-tag">
+                        {{ post.tag }}
+                    </div>
+                    <div class="link-image" style="background-image: url('{{site.url}}/images/{{ post.image }}'">
+                                        
+                    </div>
+                    <div class="link-description">
+                        {{ post.description }}
+                        <div class="date">{{ post.date | date: "%B %Y"}}</div>
+                    </div>
+                    </a>
+                </div>
+                
+            {%- endif -%}
+            {%- endfor -%}
+            </div>
+    
+        {%- endif -%}
+    
+    </div>
+
+</div>
   

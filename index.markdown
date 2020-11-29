@@ -25,13 +25,14 @@ martha hipley is an artist and technologist with over a decade of experience in 
 - pranks
 - reality tv
 - star trek
+- color theory
 
 ### practical skills
 
-- experience design
+- interaction design
 - programming for web
 - figurative painting
-- digital illustration
+- illustration
 - DIY prototyping
 - small scale solutions
 
