@@ -1,0 +1,61 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="content">
+      <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="row" id="feature-block">
+                <div class="col-xs-12">
+                    <a href="" target="_blank"><h2 id="everyoneisugly">everyoneisugly.com</h2></a>
+                    <h6>art & personal projects</h6>
+                </div>
+                <div class="col-xs-12">
+                    <a href="" target="_blank"><h2 id="agtc">an artist's guide to computation</h2></a>
+                    <h6>a newsletter of art & technology resources for creators of all kinds</h6>
+                </div>
+                <div class="col-xs-12">
+                    <a href="" target="_blank"><h2 id="available.works">available.works</h2></a>
+                    <h6>original art, prints, and zines via direct sale</h6>
+                </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            {{ content }}
+            {%- include newsletter.html -%}
+          </div>
+      </div>
+  </div>
+  
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">recent links:</h2>
+
+    <div id="link-carousel">
+        <button id="scroll-left"></button>
+        {%- for post in site.posts limit:10 -%}
+            {% if post.categories contains 'link' %}
+                <a href="{{ post.link }}"" target="_blank">
+                <div class="link-card">
+                    <div class="link-tag">
+                        {{ post.tag }}
+                    </div>
+                    <div class="link-image">
+                        <img src="{{site.url}}/images/{{ post.image }}">                   
+                    </div>
+                    <div class="link-description">
+                        {{ post.description }}
+                    </div>
+                </div>
+                </a>
+            {% endif %}
+        {%- endfor -%}
+        <button id="scroll-right"></button>
+        <a href="{{site.url}}/links/">view more</a>
+    </div>
+
+  {%- endif -%}
+
+</div>

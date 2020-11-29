@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="links-list">
+  
+    {{ content }}
+  
+    {%- if site.posts.size > 0 -%}
+      <a href="{{site.url}}">back home</a>
+      <div class="post-grid">
+        {%- for post in site.posts -%}
+        {% if post.categories contains 'link' %}
+        <a href="{{ post.link }}"" target="_blank">
+            <div class="link-card">
+                <div class="link-tag">
+                    {{ post.tag }}
+                </div>
+                <div class="link-image">
+                    <img src="{{site.url}}/images/{{ post.image }}">                   
+                </div>
+                <div class="link-description">
+                    {{ post.description }}
+                </div>
+            </div>
+            </a>
+        {%- endif -%}
+        {%- endfor -%}
+        </div>
+  
+    {%- endif -%}
+  
+  </div>
+  

@@ -1,0 +1,15 @@
+<ul id="footer-list">
+    <li>{%- include social.html -%}</li>
+
+    <li>
+        {%- if site.posts.size > 0 -%}
+            last updated {{ site.posts.first.date | date: "%Y-%m-%d"}}
+        
+        {%- endif -%}
+    </li>
+
+    <li>© {{ "now" | date: "%Y"}} Martha Hipley LLC</li>
+
+    <li>open source typefaces by <a href="http://collletttivo.it/" target="_blank">Collletttivo</a>
+    </li>
+</ul>
