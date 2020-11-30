@@ -6,5 +6,6 @@ categories: link
 tag: press
 description: "'People are making amazing, tiny games with this free tool, and I can't get enough of them' - PC Gamer"
 image: 20201111.gif
+image-alt: "a pixelated image of a nebula"
 link: https://www.pcgamer.com/people-are-making-amazing-tiny-games-with-this-free-tool-and-i-cant-get-enough-of-them/
 ---
