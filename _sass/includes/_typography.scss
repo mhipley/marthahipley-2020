@@ -73,12 +73,12 @@ h2 {
     }
     &#everyoneisugly {
         font-family: "mazius", serif;
-        font-size: 5rem;
+        font-size: 3.5rem;
         @include breakpoint(xs) {
-            font-size: 3.5rem;
-        }
-        @include breakpoint(sm) {
             font-size: 4rem;
+        }
+        @include breakpoint(md) {
+            font-size: 5rem;
         }
     }
     &#agtc {
@@ -87,12 +87,12 @@ h2 {
     }
     &#availableworks {
         font-family: "messapia", serif;
-        font-size: 3rem;
-        @include breakpoint(xs) {
-            font-size: 2rem;
-        }
+        font-size: 2rem;
         @include breakpoint(sm) {
             font-size: 2.5rem;
+        }
+        @include breakpoint(md) {
+            font-size: 3rem;
         }
     }
 }
