@@ -14,13 +14,21 @@
 
     <meta name="twitter:image" content="{{site.url}}{{site.social-img}}">
 
+    {%- if page.name == "index.markdown" -%}
     <meta property="og:title" content="{{site.title}}" />
+    <title>{{site.title}}</title>
+    {%- else -%}
+    <meta property="og:title" content="{{site.title}} | {{page.title}}" />
+    <title>{{site.title}} | {{page.title}}</title>
+    {%- endif -%}
     <meta property="og:type" content="profile" />
     <meta property="og:url" content="{{site.url}}" />
     <meta property="og:image" content="{{site.url}}{{site.social-img}}" />
     <meta property="og:description" content="martha hipley is an artist and technologist with over a decade of experience in both commercial digital products and conceptual art." />
     <meta property="og:site_name" content="marthahipley.com" />
 
+
+    
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script src="/assets/js/glider.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
