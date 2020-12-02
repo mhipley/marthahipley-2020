@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "24 Hours in December"
+date:   2020-12-02 07:00:00 -0500
+categories: link
+tag: mix
+description: "24 Hours in December - a collaborative playlist"
+image: 20201202.jpg
+image-alt: "a snowy mountain with a text overlay that says '24 hours in december'"
+link: https://www.alexteplitzky.com/media/24-hours-in-december
+---
+
+
