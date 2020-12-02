@@ -79,7 +79,7 @@ body {
             float: left;
             &:after {
                 content: "|";
-                margin: 0 1em;
+                margin: 0 1rem;
             }
             &:last-child:after {
                 content: none;
@@ -208,15 +208,19 @@ body {
 .newsletter {
     p {
         margin-top: 2rem;
-        margin-bottom: .5rem;
+        margin-bottom: 0rem;
     }
     
     input[type="text"] {
+        -webkit-appearance: none;
         width: 100%;
-        max-width: 220px;
+        max-width: 210px;
         height: 30px;
         border: 1px solid $primary;
         padding: 0 .5rem;
+        border-radius: 0;
+        box-shadow: none;
+        margin-top: .5rem;
         @include breakpoint(xs) {
             margin-bottom: 1rem;
         }
@@ -226,7 +230,7 @@ body {
     }
     
     input[type="submit"] {
-    
+        -webkit-appearance: none;
         line-height: 30px;
         border: 1px solid $primary;
         background-color: $background;
@@ -234,6 +238,8 @@ body {
         font-weight: 400;
         padding: 0 1rem;
         color: $primary;
+        border-radius: none !important;
+        margin-top: .5rem;
 
         
     }
@@ -246,7 +252,7 @@ body {
 
 //footer 
 #footer {
-    font-size: .8em;
+    font-size: .8rem !important;
     #footer-list {
         list-style-type: none;
         

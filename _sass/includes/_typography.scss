@@ -48,7 +48,7 @@ a {
 
 h1 {
     font-family: "sinistre", serif;
-    font-size: 4rem;
+    font-size: 3.5rem;
     @include breakpoint(sm) {
         font-size: 3rem;
     }
@@ -60,6 +60,7 @@ h1 {
 
 h2 {
     margin: 0;
+    
     span.line {
         display: inline-block;
     }
@@ -73,12 +74,12 @@ h2 {
     }
     &#everyoneisugly {
         font-family: "mazius", serif;
-        font-size: 3.5rem;
+        font-size: 3rem;
         @include breakpoint(xs) {
-            font-size: 4rem;
+            font-size: 3.5rem;
         }
         @include breakpoint(md) {
-            font-size: 5rem;
+            font-size: 4rem;
         }
     }
     &#agtc {
@@ -87,12 +88,12 @@ h2 {
     }
     &#availableworks {
         font-family: "messapia", serif;
-        font-size: 2rem;
+        font-size: 1.8rem;
         @include breakpoint(sm) {
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         @include breakpoint(md) {
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
     }
 }
