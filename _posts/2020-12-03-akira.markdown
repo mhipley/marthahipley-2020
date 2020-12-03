@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Akira poster"
+date:   2020-12-03 08:00:00 -0500
+categories: link
+tag: feature
+description: "My painting featured on Alternative Movie Posters"
+image: 20201203.jpg
+image-alt: "A poster for the film Akira - a young man walks towards a motorbike"
+link: https://alternativemovieposters.com/amp/akira-by-martha-hipley/
+---
