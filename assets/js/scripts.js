@@ -1,39 +1,52 @@
 let w, h;
 
 window.addEventListener('load', function(){
-    console.log("load")
     //glider script for the carousel
-    new Glider(document.querySelector('.glider'), {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        draggable: true,
-        scrollLock: true,
-        arrows: {
-          prev: '.glider-prev',
-          next: '.glider-next'
-        },
-        responsive: [
-            
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 3.5,
-                slidesToScroll: 1,
-                duration: 2,
-                scrollLock: false
-              }
+
+    function runGlider(callback) {
+        new Glider(document.querySelector('.glider'), {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            draggable: true,
+            scrollLock: true,
+            arrows: {
+              prev: '.glider-prev',
+              next: '.glider-next'
             },
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 2.5,
+            responsive: [
+                
+                {
+                  breakpoint: 768,
+                  settings: {
+                    slidesToShow: 3.5,
                     slidesToScroll: 1,
                     duration: 2,
                     scrollLock: false
+                  }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 2.5,
+                        slidesToScroll: 1,
+                        duration: 2,
+                        scrollLock: false
+                    }
                 }
-            }
-          ]
-    });
+              ]
+        });
+        callback();
+    }
+
+    function showCards() {
+        var cards = document.getElementsByClassName("link-card");
+        [].forEach.call(cards, function(el) {
+            el.classList.add("show");
+            el.classList.remove("hide");
+        });
+    }
+
+    runGlider(showCards);
 
     w = document.getElementById("underlay").offsetWidth;
     h = document.getElementById("underlay").offsetHeight;
@@ -52,7 +65,6 @@ let sketch = function(p) {
         p.background(255, 255, 255);
     }
     p.windowResized = function(){
-        console.log("resize");
         w = document.getElementById("underlay").offsetWidth;
         h = document.getElementById("underlay").offsetHeight;
         p.resizeCanvas(w, h);
@@ -78,12 +90,4 @@ let sketch = function(p) {
 };
 
 
-window.addEventListener('load', function () {
-    var cards = document.getElementsByClassName("link-card");
-    console.log(cards);
-    [].forEach.call(cards, function(el) {
-        el.classList.add("show");
-        el.classList.remove("hide");
-    });
 
-});
