@@ -78,4 +78,12 @@ let sketch = function(p) {
 };
 
 
+window.addEventListener('load', function () {
+    var cards = document.getElementsByClassName("link-card");
+    console.log(cards);
+    [].forEach.call(cards, function(el) {
+        el.classList.add("show");
+        el.classList.remove("hide");
+    });
 
+});
