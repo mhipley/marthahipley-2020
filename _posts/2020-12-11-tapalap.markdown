@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "tap-a-lap-splash!"
+date:   2020-12-11 09:00:00 -0500
+categories: link
+tag: project
+description: "An interactive rhythm experience about seeking flow and calm."
+image: 20201211.gif 
+image-alt: "An animated gif of the title screen for the game."
+link: https://everyoneisugly.com/projects/tapalapsplash/
+---
