@@ -2,59 +2,83 @@ let w, h;
 
 window.addEventListener('load', function(){
     //glider script for the carousel
-
-    function runGlider(callback) {
-        new Glider(document.querySelector('.glider'), {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            draggable: true,
-            scrollLock: true,
-            arrows: {
-              prev: '.glider-prev',
-              next: '.glider-next'
-            },
-            responsive: [
-                
-                {
-                  breakpoint: 768,
-                  settings: {
-                    slidesToShow: 3.5,
-                    slidesToScroll: 1,
-                    duration: 2,
-                    scrollLock: false
-                  }
+    if (document.querySelector('.glider') != null) {
+        function runGlider(callback) {
+            new Glider(document.querySelector('.glider'), {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                draggable: true,
+                scrollLock: true,
+                arrows: {
+                  prev: '.glider-prev',
+                  next: '.glider-next'
                 },
-                {
-                    breakpoint: 576,
-                    settings: {
-                        slidesToShow: 2.5,
+                responsive: [
+                    
+                    {
+                      breakpoint: 768,
+                      settings: {
+                        slidesToShow: 3.5,
                         slidesToScroll: 1,
                         duration: 2,
                         scrollLock: false
+                      }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            slidesToShow: 2.5,
+                            slidesToScroll: 1,
+                            duration: 2,
+                            scrollLock: false
+                        }
                     }
-                }
-              ]
-        });
-        callback();
+                  ]
+            });
+            callback();
+        }
+    
+        function showCards() {
+            var cards = document.getElementsByClassName("link-card");
+            [].forEach.call(cards, function(el) {
+                el.classList.add("show");
+                el.classList.remove("hide");
+            });
+        }
+    
+        runGlider(showCards);
     }
 
-    function showCards() {
-        var cards = document.getElementsByClassName("link-card");
-        [].forEach.call(cards, function(el) {
-            el.classList.add("show");
-            el.classList.remove("hide");
-        });
+    if (document.getElementById("underlay") != null) {
+        w = document.getElementById("underlay").offsetWidth;
+        h = document.getElementById("underlay").offsetHeight;
+    
+        new p5(sketch, 'underlay');
     }
 
-    runGlider(showCards);
+    for (var i = 0; i < document.links.length; i++) {
+        if (document.links[i].href == document.URL) {
+            document.links[i].className = 'active';
+        }
+    }
 
-    w = document.getElementById("underlay").offsetWidth;
-    h = document.getElementById("underlay").offsetHeight;
-
-    new p5(sketch, 'underlay');
+    
    
 })
 
+// open p on mobile in pricing chart
+function openDetail(span) {
+    if (span.classList.contains("active")) {
+        span.classList.remove("active");
+        span.nextElementSibling.style.maxHeight = null;
+
+    }
+    else {
+        span.classList.add("active");
+        span.nextElementSibling.style.maxHeight = span.nextElementSibling.scrollHeight + "px";
+    }
+
+}
 
 
 
@@ -88,6 +112,4 @@ let sketch = function(p) {
         p.background(255, 255, 255);
     }
 };
-
-
 

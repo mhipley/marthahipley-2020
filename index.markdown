@@ -5,7 +5,7 @@ title: "welcome to my homepage"
 
 ### bio
 
-martha hipley is an artist and technologist with over a decade of experience in both commercial digital products and conceptual art. 
+martha hipley is an artist and technologist with a journeyman's approach to commercial digital products and conceptual art.
 
 ### current interests
 
