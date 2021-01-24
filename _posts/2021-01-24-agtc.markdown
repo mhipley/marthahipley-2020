@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "an artist's guide relaunch"
+date:   2021-01-24 09:00:00 -0500
+categories: link
+tag: project
+description: "an artist's guide to computation has a new website!"
+image: agtc-social-card.gif
+image-alt: "the new logo for an artist's guide to computation"
+link: https://www.artistsguide.to/
+---
