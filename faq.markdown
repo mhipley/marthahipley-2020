@@ -36,7 +36,7 @@ if you are a small business or organization whose members identify as femme, que
 
 ##### are you flexible on your prices?
 
-this is as low as I can go, and these should be considered a minimum rate for simple projects, not a negotiable middle range. I truly only want to work on cool stuff with cool people, but I also have to pay bills and value my time. I keep my prices as low as possible in order to work with interesting people on projects I can care about. these rates are based on my needs and expectations for the first 6 months of 2021, and I will be reevaluating and updating these documents in June.
+this is as low as I can go, and these should be considered a minimum rate for simple projects, not a negotiable middle range. I truly only want to work on cool stuff with cool people, but I also have to pay bills and value my time. I keep my prices as low as possible in order to work with interesting people on projects I can care about. these rates are based on my needs and expectations for the first 6 months of 2021, and I will be reevaluating and updating these documents in April.
 
 
 
@@ -50,7 +50,7 @@ I currently do not have time for pro-bono projects or unpaid collaborations. I h
 
 ##### why are your prices more (or less!) expensive than the last time we talked?
 
-if you are an existing paying client, don’t worry! your pricing has not changed (unless you're now paying less!). these are the prices that make sense for my cost of living and availability for 2021, and will not change until I reevaluate in June 2021.
+if you are an existing paying client, don’t worry! your pricing has not changed (unless you're now paying less!). these are the prices that make sense for my cost of living and availability for 2021, and will not change until I reevaluate in April 2021.
 
 
 

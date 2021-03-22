@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "gender and interfaces happy hour"
+date:   2021-03-22 09:00:00 -0600
+categories: link
+tag: event
+description: "I'm hosting a workshop on gender and interfaces via Hyperlink!"
+image: gender-social-card.jpg
+image-alt: "a spikey shape and a blobby shape hangin' out"
+link: https://hyperlink.academy/events/395
+---
