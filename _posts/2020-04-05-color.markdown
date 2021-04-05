@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "color and accessibility course"
+date:   2021-04-05 09:00:00 -0600
+categories: link
+tag: class
+description: "I'm teaching about color at School of Machines, Making, and Make-Believe!"
+image: color-promo.jpg
+image-alt: "an ink dropper selecting a lovely shade of yellow from an oil painting of a field"
+link: http://schoolofma.org/color-and-accessibility.html
+---

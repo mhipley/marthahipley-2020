@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "cool 04.21"
+date:   2021-04-01 07:00:00 -0500
+categories: link
+tag: mix
+description: "cool 04.21 - mix for April 2021"
+image: april-mix.png
+image-alt: "a collage of 4 record covers"
+link: https://open.spotify.com/playlist/4Hm1t2b3Zwh0ybLKO3cPQT?si=eb52b3b9a03d4f6d
+---
+
+
