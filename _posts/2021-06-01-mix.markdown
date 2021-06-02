@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "cool 06.21"
+date:   2021-06-01 07:00:00 -0500
+categories: link
+tag: mix
+description: "mix for June 2021"
+image: june-mix.png
+image-alt: "a collage of 4 record covers"
+link: https://open.spotify.com/playlist/4xA9AHOygKM7km856wkvtW?si=e93d3f211e67415b
+---
