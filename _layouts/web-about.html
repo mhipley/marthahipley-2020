@@ -10,9 +10,9 @@ layout: web
             <h2>Recent Work</h2>
 
             <ul class="work-samples">
-            {%- for post in site.posts -%}
-            {% if post.categories contains 'work' %}
-            
+            {% assign work = site.posts | where: "categories", 'work' %}
+
+            {%- for post in work limit:3 -%}
                 <li>
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
@@ -26,9 +26,20 @@ layout: web
                                 <h3><a target="_blank" href="{{post.link}}">{{ post.slug }}</a></h3>
                                 <p>{{post.content}}</p>
                                 <h4>ROLE(S)</h4>
-                                <p>{{ post.roles }}</p>
+                                <p>
+                                    {% for item in post.roles %} 
+                                        {{ item }}
+                                        {% if forloop.last %}{% else %}|{% endif %}
+                                    {% endfor %}  
+
+                                </p>
                                 <h4>TECHNOLOGIES</h4>
-                                <p>{{ post.tech }}</p>
+                                <p>
+                                    {% for item in post.tech %} 
+                                    {{ item }}
+                                    {% if forloop.last %}{% else %}|{% endif %}
+                                {% endfor %}  
+                                </p>
                                 {% if post.credits %}
                                 <h4>ADDITIONAL CREDITS</h4>
                                 
@@ -47,7 +58,6 @@ layout: web
                    
                 </li>
                 
-            {%- endif -%}
             {%- endfor -%}
 
             </ul>

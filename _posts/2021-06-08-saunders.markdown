@@ -4,9 +4,9 @@ title:  "Saunders Studio"
 date:   2021-06-01 09:00:00 -0500
 categories: link work
 tag: project
-roles: frontend
-tech: shopify
-description: "Client work - Saunders Studio development"
+roles: ["frontend"]
+tech: ["shopify"]
+description: "client work - Saunders Studio shopify development"
 image: saunders.png
 image-alt: "a screenshot of the site's landing"
 link: https://www.saundersstudio.com/

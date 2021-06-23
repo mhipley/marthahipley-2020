@@ -4,9 +4,9 @@ title:  "Oil Ancestors"
 date:   2021-05-30 09:00:00 -0500
 categories: link work
 tag: project
-roles: design, frontend
-tech: wordpress, p5.js
-description: "Client work - Oil Ancestors site design and development"
+roles: ["design", "frontend"]
+tech: ["wordpress", "p5.js"]
+description: "client work - Oil Ancestors design and development"
 image: oil-ancestors.png
 image-alt: "a screenshot of the site's landing"
 link: https://oilancestors.com/

@@ -8,11 +8,24 @@ layout: web
             {% if post.categories contains 'work' %}
             
             <div class="col-xs-12 col-sm-4 col-md-3">
-                <a target="_blank" href="{{post.link}}">
-                <div class="img-wrapper">
-                    <img src="{{site.url}}/images/{{ post.image }}">
+                <div class="project-wrapper">
+                    <a target="_blank" href="{{post.link}}">
+                        <ul class="roles">
+                            
+                            {% for item in post.roles  %} 
+                            <li>
+                                {{ item }}
+                            </li>
+                            {% endfor %}  
+                        </ul>
+                    <div class="img-wrapper">
+
+                        <img src="{{site.url}}/images/{{ post.image }}">
+                    </div>
+                    <h3>{{ post.slug }}</h3></a>
+                    <div class="date">{{ post.date | date: "%B %Y"}}</div>
+
                 </div>
-                <h3>{{ post.slug }}</h3></a>
             </div>
 
 

@@ -284,9 +284,10 @@ body {
 //links page 
 
 .post-grid {
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
+    .back {
+        margin-bottom: 1rem;
+    }
+
     .link-card {
         margin-bottom: 2rem;
         
@@ -423,7 +424,6 @@ body {
             
             &:hover {
                 background: $webPrimary;
-                color: $webBg;
             }
 
             blockquote {
@@ -446,8 +446,36 @@ body {
         }
     }
 
-    .work-samples {
+    .project-wrapper {
+        position: relative;
+    }
 
+    .roles {
+
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        z-index: 99;
+        top: .5rem;
+        left: -.5rem;
+
+        li {
+            text-transform: uppercase;
+            font-weight: 700;
+            font-style: italic;
+            font-size: 1rem;
+            color: $webBlack;
+            background: $webPrimary;
+            padding: .25rem .5rem;
+            width: fit-content;
+            display: block;
+            margin-bottom: .5rem;
+        }
+        
+    }
+
+    .work-samples {
 
         
         list-style-type: none;
@@ -486,7 +514,11 @@ body {
                 margin-top: 0;
                 margin-bottom: .5rem;
             }
-            margin-bottom: 2rem;
+
+            .description {
+                margin-bottom: 2rem;
+            }
+            
         
 
 
@@ -512,10 +544,14 @@ body {
             h3 {
                 font-size: 1.8rem;
                 text-transform: none;
-                margin-bottom: 2rem;
+                margin-bottom: 0rem;
                 a {
                     text-decoration: none;
                 }
+            }
+
+            .date {
+                margin-bottom: 2rem;
             }
 
         }

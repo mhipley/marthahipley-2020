@@ -1,41 +1,43 @@
 ---
 layout: default
 ---
-<div class="content container-fluid">
+<div class="content container-fluid post-grid">
     <div class="links-list">
     
         {{ content }}
     
         {%- if site.posts.size > 0 -%}
-        <div class="row">
+        <div class="row back">
             <div class="col-xs-12">
                 <a href="{{site.url}}" class="action"><span class="icon icon-back"></span>back home</a>
             </div>
         </div>
-        
-        <div class="post-grid">
-            {%- for post in site.posts -%}
-            {% if post.categories contains 'link' %}
+
+        <div class="row">
             
-                <div class="link-card">
-                    <a href="{{ post.link }}"" target="_blank">
-                    <div class="link-tag">
-                        {{ post.tag }}
+                {%- for post in site.posts -%}
+                {% if post.categories contains 'link' %}
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <div class="link-card">
+                        <a href="{{ post.link }}"" target="_blank">
+                        <div class="link-tag">
+                            {{ post.tag }}
+                        </div>
+                        <div class="link-image" role="img" aria-label="{{post.image-alt}}" style="background-image: url('{{site.url}}/images/{{ post.image }}'">
+                                            
+                        </div>
+                        <div class="link-description">
+                            {{ post.description }}
+                            <div class="date">{{ post.date | date: "%B %Y"}}</div>
+                        </div>
+                        </a>
                     </div>
-                    <div class="link-image" role="img" aria-label="{{post.image-alt}}" style="background-image: url('{{site.url}}/images/{{ post.image }}'">
-                                        
-                    </div>
-                    <div class="link-description">
-                        {{ post.description }}
-                        <div class="date">{{ post.date | date: "%B %Y"}}</div>
-                    </div>
-                    </a>
                 </div>
-                
-            {%- endif -%}
-            {%- endfor -%}
-            </div>
-    
+                {%- endif -%}
+                {%- endfor -%}
+            
+        </div>
+        
         {%- endif -%}
     
     </div>
