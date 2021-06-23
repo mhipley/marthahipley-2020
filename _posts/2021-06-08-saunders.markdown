@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Saunders Studio"
+date:   2021-06-01 09:00:00 -0500
+categories: link work
+tag: project
+roles: frontend
+tech: shopify
+description: "Client work - Saunders Studio development"
+image: saunders.png
+image-alt: "a screenshot of the site's landing"
+link: https://www.saundersstudio.com/
+slug: "saundersstudio.com"
+credits: [ 
+        {
+            name: "Yan Sze Li",
+            desc: "design by ",
+            link: http://www.yanszeli.com/
+
+        }
+        ]
+
+---
+
+Saunders Studio needed pixel-perfect frontend development of an elegant, avant garde design for their new product line.

@@ -3,6 +3,16 @@ $primary: #4F3266;
 $accent: #FF0B87;
 $accentalt: #C2CC05;
 
+$webBg: #FFE890;
+$webBlack: #17171E;
+$webPrimary: #19BAC8;
+$webAccent: #FE4333;
+
 html {
     background: $background;
+}
+
+html.web {
+    background: $webBg;
+    color: $webBlack;
 }

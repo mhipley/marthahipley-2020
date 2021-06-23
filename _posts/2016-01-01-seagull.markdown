@@ -1,0 +1,8 @@
+---
+layout: post
+date:   2016-01-01 09:00:00 -0500
+categories: testimonial
+author: "Shaun Surething, owner of Seagull Hair NYC"
+---
+
+Where she was MOST valuable to our company was explaining how to enhance the usability of our site and giving us suggestions for user interactions and our product, with a keen eye on understanding our culture as a business. I could not recommend more highly.

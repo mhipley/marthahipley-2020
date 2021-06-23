@@ -2,10 +2,24 @@
 layout: post
 title:  "Oil Ancestors"
 date:   2021-05-30 09:00:00 -0500
-categories: link
+categories: link work
 tag: project
+roles: design, frontend
+tech: wordpress, p5.js
 description: "Client work - Oil Ancestors site design and development"
 image: oil-ancestors.png
 image-alt: "a screenshot of the site's landing"
 link: https://oilancestors.com/
+slug: "oilancestors.com"
+credits: [ 
+        {
+            name: "Pete Rai",
+            desc: "bubbles adapted from ",
+            link: http://www.rai.org.uk/
+
+        }
+        ]
+
 ---
+
+Fereshteh Toosi wanted a website that would both archive their Oil Ancestors project and serve as a splashy introduction to an events series.

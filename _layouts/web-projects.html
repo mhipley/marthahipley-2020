@@ -1,0 +1,29 @@
+---
+layout: web
+---
+<div class="content container-fluid">
+    
+    <div class="row work-samples work-samples-grid">
+            {%- for post in site.posts -%}
+            {% if post.categories contains 'work' %}
+            
+            <div class="col-xs-12 col-sm-4 col-md-3">
+                <a target="_blank" href="{{post.link}}">
+                <div class="img-wrapper">
+                    <img src="{{site.url}}/images/{{ post.image }}">
+                </div>
+                <h3>{{ post.slug }}</h3></a>
+            </div>
+
+
+                
+            {%- endif -%}
+            {%- endfor -%}
+
+
+
+       
+    </div>
+
+</div>
+  
