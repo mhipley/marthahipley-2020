@@ -382,6 +382,10 @@ body {
 
     .faq-columns {
         margin-bottom: 4rem;
+        h5:first-child {
+            margin-top: 0;
+        }
+
         h5 {
             font-size: 1rem;
             margin-bottom: 0;
