@@ -10,7 +10,7 @@ there are a lot of website builder tools on the internet. for some kinds of proj
 
 
 
-if you want custom control over your aesthetic presentation and content online, hit me up! if you’d like control over how your content is hosted and want to rely on open source tools, I can help! if you want to make your web project unique with custom interactive or immersive features, please be in touch! if you want to sell things online but feel like your brand needs a next-level experience, I can make it happen! if you want to make something weird on the internet and have a budget, let’s talk!
+if you want custom control over your aesthetic presentation and content online, hit me up! if you’d like control over how your content is hosted and want to rely on open source tools, I can help! if you want to make your web project unique with custom interactive or immersive features, please be in touch! if you want to sell things online but feel like your brand needs a custom experience, I can make it happen! if you want to make something weird on the internet and have a budget, let’s talk!
 
 
 
@@ -20,13 +20,13 @@ if you don’t know what you need, [schedule a free consultation](https://calend
 
 ##### why no apps?
 
-apps are complicated, expensive, unfun, and high drama. the world doesn’t need more apps! I also no longer consult re: startup/investment world strategy or product planning. if you need a better landing page for your product, I'm available. if you need help designing what that product is, I'm not.
+the world doesn’t need more apps! I also no longer consult re: startup/investment world strategy or product planning.
 
 
 
 ##### what is a “community” vs. “small business” vs. a “scaled business” project?
 
-for my purposes, a small business is < 5 salaried employees and **no** investment funding. if you identify as a startup and have pre-seed money or are in an incubator, you are under the scaled rate. if you are a small business who is subcontracting me for a larger business, I will quote the scaled rate.
+for my purposes, a small business is < 5 salaried employees and **no** investment funding. if you identify as a startup and have pre-seed money or are in an incubator, you fall under the scaled rate. if you are a small business who is subcontracting me for a larger business, I will quote the scaled rate.
 
 
 
@@ -68,7 +68,7 @@ sometimes! sometimes I will subcontract work on an hourly basis (ex., content ma
 
 ##### how do you invoice?
 
-I send invoices for hourly billing on the last day of the month, and milestone invoices for project billing. all projects require a 50% deposit, with the rest due 30 days from the completion of all deliverables. hourly invoices are also due within 15 days. if you are under the community rate umbrella, I am happy to negotiate a payment plan to meet your needs. I send invoices via a service that allows you to pay directly via Stripe with any debit or credit card.
+I send invoices for hourly billing on the last day of the month, and milestone invoices for project billing. all projects require a 50% deposit, with the rest due 15 days from the completion of all deliverables. hourly invoices are also due within 15 days. if you are under the community rate umbrella, I am happy to negotiate a payment plan to meet your needs. I send invoices via a service that allows you to pay directly via Stripe with any debit or credit card.
 
 
 
@@ -88,7 +88,7 @@ taking inspiration is great, but if you just want me to copy someone’s style (
 
 ##### do you do branding?
 
-not really! a web design & development package includes conversations about colors, typography, language choice, and aesthetics, but I do not do logo design or other branding work.
+a web design & development package includes conversations about colors, typography, language choice, and aesthetics, but I do not do logo design or other "branding" work.
 
 
 
@@ -134,5 +134,5 @@ I also reserve the right to terminate any contract if I find out any association
 
 ##### why are you explaining all of this?
 
-after years of pricing my work privately, on a per-client basis, I wanted to explore a set sheet of rates and expectations that I can roll out as a 6-month experiment in setting boundaries around my labor and needs. it also means that [your free consultation](https://calendly.com/hipley/30min) can be about your exciting ideas and not about covering the nitty gritty.
+after years of pricing my work privately, on a per-client basis, I wanted to explore a set sheet of rates and expectations that I can roll out as an annual experiment in setting boundaries around my labor and needs. it also means that [your free consultation](https://calendly.com/hipley/30min) can be about your exciting ideas and not about covering the nitty gritty.
 
