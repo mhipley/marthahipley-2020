@@ -10,17 +10,11 @@ there are a lot of website builder tools on the internet. for some kinds of proj
 
 
 
-if you want custom control over your aesthetic presentation and content online, hit me up! if you’d like control over how your content is hosted and want to rely on open source tools, I can help! if you want to make your web project unique with custom interactive or immersive features, please be in touch! if you want to sell things online but feel like your brand needs a custom experience, I can make it happen! if you want to make something weird on the internet and have a budget, let’s talk!
+if you want custom control over your aesthetic presentation and content online, hit me up! if you’d like control over how your content is hosted and want to rely on open source tools, I can help! if you want to make your web project unique with custom interactive or immersive features, please be in touch! if you want to sell things online but feel like your brand needs a custom experience, I can make it happen! if you want to make something weird on the internet and have a budget, let’s talk! if you want help planning a website that is a strategic, effective presentation of your wants and needs, this is my specialty.
 
 
 
 if you don’t know what you need, [schedule a free consultation](https://calendly.com/hipley/30min)!
-
-
-
-##### why no apps?
-
-the world doesn’t need more apps! I also no longer consult re: startup/investment world strategy or product planning.
 
 
 
@@ -36,27 +30,19 @@ if you are a small business or organization whose members identify as femme, que
 
 ##### are you flexible on your prices?
 
-I keep my prices as low as possible in order to work with interesting people on projects I can care about. these rates are based on my needs and expectations for 2021, and I will be reevaluating and updating these documents at the end of the year.
+nope! I need to make a living and only can accept projects that meet my rates.
 
 
 
-I do not negotiate for equity, but I am open to barter when it makes sense with my schedule and needs. if you want to pay in crypto, idk, we can talk about it. if you are not based in the US, we can figure it out.
+##### what if I want to know how much my entire project will cost?
 
-
-
-I currently do not have time for pro-bono projects or unpaid collaborations. I hope to have more pro-bono availability later in 2021 and will update this site accordingly.
+I'm happy to provide an estimate for large projects based on a defined scope, but I tend to find that scope creep is inevitable so I only bill hourly. it's less drama and safer for me.
 
 
 
 ##### why are your prices more (or less!) expensive than the last time we talked?
 
 if you are an existing paying client, don’t worry! your pricing has not changed (unless you're now paying less!). these are the prices that make sense for my cost of living and availability for 2021, and will not change until I reevaluate at the end of the year.
-
-
-
-##### I already have a website design ready, why is the price difference only $200 less for development only?
-
-in my experience, I end up doing quite a bit of ad hoc visual design and UX work when working with another designer. there’s a lot of stuff about the realities of frontend development and accessibility for web that comes up when I begin to work with someone on their designs, so you are still paying for my design expertise no matter what. think of it more as: “buy the development and get the design services as a bonus!” and not: “do my own design and save a measly $200.”
 
 
 
@@ -68,15 +54,15 @@ sometimes! sometimes I will subcontract work on an hourly basis (ex., content ma
 
 ##### how do you invoice?
 
-I send invoices for hourly billing on the last day of the month, and milestone invoices for project billing. all projects require a 50% deposit, with the rest due 15 days from the completion of all deliverables. hourly invoices are also due within 15 days. if you are under the community rate umbrella, I am happy to negotiate a payment plan to meet your needs. I send invoices via a service that allows you to pay directly via Stripe with any debit or credit card.
+I send invoices for hourly billing on the 15th and last day of the month. invoices are due within 15 days. if you are under the community rate umbrella, I am happy to negotiate a payment plan to meet your needs. I send invoices via a service that allows you to pay directly via Stripe with any debit or credit card.
 
 
 
-any 3rd party commercial licenses (for example, if you want to use an Adobe stock photo, or need to host videos for your site with a premium Vimeo account), are either purchased directly by you or prepaid by you before use. I do not pay up front for any licenses.
+any 3rd party commercial licenses (for example, if you want to use an Adobe stock photo, or need to host videos for your site with a premium Vimeo account), are either purchased directly by you or prepaid by you before use. I do not pay up-front for any licenses.
 
 
 
-I sometimes use open source tools made by small teams and will make a donation from my own fee to those teams on completion of a project. 
+I make donations to open-source projects out of my own fees.
 
 
 
@@ -89,6 +75,12 @@ taking inspiration is great, but if you just want me to copy someone’s style (
 ##### do you do branding?
 
 a web design & development package includes conversations about colors, typography, language choice, and aesthetics, but I do not do logo design or other "branding" work.
+
+
+
+##### why no apps?
+
+the world doesn’t need more apps! I also no longer consult re: startup/investment world strategy or product planning.
 
 
 
