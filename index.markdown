@@ -11,7 +11,6 @@ martha hipley is an artist and technologist with a journeyman's approach to comm
 
 - supernatural horror
 - climate anxiety
-- design justice
 - serialized fiction
 - disco & funk
 - esoterica & trivia
@@ -26,6 +25,7 @@ martha hipley is an artist and technologist with a journeyman's approach to comm
 - reality tv
 - star trek
 - color theory
+- economics and business strategy
 
 ### practical skills
 
@@ -35,13 +35,13 @@ martha hipley is an artist and technologist with a journeyman's approach to comm
 - illustration
 - DIY prototyping
 - small scale solutions
+- product strategy
 
 ### currently available for
 
 - workshops
 - talks
 - writing
-- advice (free)
-- consulting (paid)
+- consulting
 
 ###### CV and case studies available upon request.
