@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "pariah interaactive residency"
+date:   2021-08-01 09:00:00 -0600
+categories: link
+tag: project
+description: "'How does it make you feel?' receives a residency from Pariah Interactive!"
+image: sprites-howdoesit.jpg
+image-alt: "a lineup of characters from the game"
+link: https://howdoesit.cyou/
+---

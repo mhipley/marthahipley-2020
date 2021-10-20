@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "The Anti-Eugenics Project"
+date:   2021-10-01 09:00:00 -0500
+categories: link work
+tag: project
+roles: ["frontend"]
+tech: ["wordpress"]
+description: "client work - The Anti-Eugenics Project"
+image: aep-screenshot.png
+image-alt: "a screenshot of the site's landing"
+link: https://antieugenicsproject.org/
+slug: "antieugenicsproject.org"
+credits: [ 
+        {
+            name: "Precise Modern",
+            desc: "design by ",
+            link: https://precisemodern.com/
+
+        }
+        ]
+
+---
+
+The Anti-Eugenics Project needed a secure, accessible site for their virtual conference ... on a very tight timeline!
